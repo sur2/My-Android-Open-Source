@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><!--https://developer.android.com/guide/topics/appwidgets?hl=ko-->
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://developer.android.com/guide/topics/appwidgets?hl=ko-->
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialLayout="@layout/my_appwidget"
     android:minWidth="40dp"
     android:minHeight="40dp"
+    android:previewImage="@drawable/test_logo_783px"
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="86400000"
-    android:widgetCategory="home_screen">
-</appwidget-provider>
+    android:widgetCategory="home_screen"></appwidget-provider>
 
-<!--
-선택사항
-android:previewImage="@drawable/preview"
-android:configure="com.example.android.ExampleAppWidgetConfigure"
--->
+    <!--
+    선택사항
+    android:previewImage="@drawable/preview"
+    android:configure="com.example.android.ExampleAppWidgetConfigure"
+    android:resizeMode="horizontal|vertical"
+    -->
