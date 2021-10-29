@@ -5,59 +5,112 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="시" />
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <com.example.numberpickertest.MyNumberPicker
-            android:id="@+id/np_hour"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시" />
+
+            <com.example.numberpickertest.MyNumberPicker
+                android:id="@+id/np_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분" />
+
+            <com.example.numberpickertest.MyNumberPicker
+                android:id="@+id/np_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초" />
+
+            <com.example.numberpickertest.MyNumberPicker
+                android:id="@+id/np_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_margin="50dp">
 
-        <TextView
+        <Button
+            android:id="@+id/bt_stopAndGo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="분" />
+            android:background="#BEE0EF"
+            android:text="Go" />
 
-        <com.example.numberpickertest.MyNumberPicker
-            android:id="@+id/np_minute"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tv_hour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="초" />
+            android:layout_margin="10sp"
+            android:text="00"
+            android:textSize="50sp" />
 
-        <com.example.numberpickertest.MyNumberPicker
-            android:id="@+id/np_second"
+        <TextView
+            android:id="@+id/tv_minute"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="00"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tv_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="00"
+            android:textSize="50sp" />
 
     </LinearLayout>
+
 
 </LinearLayout>
