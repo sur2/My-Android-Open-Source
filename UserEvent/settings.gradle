@@ -1,0 +1,2 @@
+rootProject.name = "UserEvent"
+include ':app'
