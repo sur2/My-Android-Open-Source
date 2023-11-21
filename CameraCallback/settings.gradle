@@ -1,0 +1,2 @@
+rootProject.name = "CameraCallback"
+include ':app'

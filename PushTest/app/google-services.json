@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693432546109",
+    "project_id": "push-test-dc749",
+    "storage_bucket": "push-test-dc749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693432546109:android:4525803eb08d639559cb54",
+        "android_client_info": {
+          "package_name": "com.pyong.pushtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693432546109-7tu8qquhkpo96q322ipvft3nh6ei7vaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBpUkiMUmFg4PbUc7CtJCBNdGraIMWHQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693432546109-7tu8qquhkpo96q322ipvft3nh6ei7vaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
